@@ -48,7 +48,8 @@ The file should be called: "TASKS.JSON" which is located in the main '.vscode' f
 Like so:
 ![image](https://github.com/user-attachments/assets/72b09926-f4ed-4d63-a3c2-cb46353189aa)
 
-
+# Final Address
+ Although this system works, it's advisable to avoid long exposure to shader development. Please take breaks and avoid long sittings, please and thank you.
 # License
 
 ## MIT License with Attribution Requirement  
