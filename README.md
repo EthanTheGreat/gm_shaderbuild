@@ -11,7 +11,8 @@ Step 2) Apply the content of this folder into the existing addon into the folder
 
 
 Step 3) Adjust game path within `process_shaders_single_30.ps1` relative to the game paths described @ lines 13-15
-        If you're game's relative path is different, please locate them and change the lines to match your project.
+        
+        ** If the game's relative path is different, please locate them and change the lines to match your project.
 
         This should be the path to your materials folder, shader path and your local version (within the setup of step 1) the material file template.
 
