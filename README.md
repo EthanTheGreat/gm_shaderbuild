@@ -13,18 +13,13 @@ Step 2) Apply the content of this folder into the existing addon into the folder
 Step 3) Adjust game path within `process_shaders_single_30.ps1` relative to the game paths described @ lines 13-15
         If you're game's relative path is different, please locate them and change the lines to match your project.
 
-Please Modify the ps1 file with the following folder paths:
-        ```* <garrysmod>/<garrysmod>/shaders/fxc
-        * <ToolDir>/materials/effects/shaders/template
-        * <garrysmod>/<garrysmod>/materials/effects/shaders
-        ```
-Attach the following code bracket to the vscode setup we're using (Thanks Ficool!)
+        This should be the path to your materials folder, shader path and your local version (within the setup of step 1) the material file template.
+
+Step 4) Attach the following code bracket to the vscode setup we're using (Thanks Ficool!)
 The file should be called: "TASKS.JSON" which is located in the main '.vscode' folder.
 
 
-....
-....
-
+```
         {
             "label": "Build Shader (FAST)",
             "type": "shell",
@@ -47,10 +42,10 @@ The file should be called: "TASKS.JSON" which is located in the main '.vscode' f
                 "cwd": "${workspaceFolder}/shadersrc"
             }
         },
+```
 
-....
-
-.....
+Like so:
+![image](https://github.com/user-attachments/assets/72b09926-f4ed-4d63-a3c2-cb46353189aa)
 
 
 # License
