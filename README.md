@@ -5,7 +5,7 @@ Allows anyone to hotload shaders using a fix by renaming the contents.
 # Install Instructions
 Step 1) Install: https://github.com/ficool2/sdk_screenspace_shaders
 
-Step 2) Apply existing addon into the root folder, of the above repository. 
+Step 2) Apply the content of this folder into the existing addon into the folder in step 1, of the above repository. 
         This appear like so:
 ![image](https://github.com/user-attachments/assets/68d4cd0e-0a15-4827-a155-7f2b74986897)
 
