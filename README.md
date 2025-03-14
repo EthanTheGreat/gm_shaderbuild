@@ -1,6 +1,13 @@
 # gm_shaderbuild
 Allows anyone to hotload shaders using a fix by renaming the contents.
 
+The order in which it operates:
+1) compile vcd
+2) Update vmt locally
+3) Copy vmt to gamedir
+4) Rewrite shader's names as it appears inside the local & released copy
+
+   I believe this is way more useful verses manually editing file paths, or restarting the game itself.
 
 # Install Instructions
 Step 1) Install: https://github.com/ficool2/sdk_screenspace_shaders
