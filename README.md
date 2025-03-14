@@ -14,12 +14,10 @@ Step 3) Adjust game path within `process_shaders_single_30.ps1` relative to the 
         If you're game's relative path is different, please locate them and change the lines to match your project.
 
 Please Modify the ps1 file with the following folder paths:
-        * <garrysmod>/<garrysmod>/materials/effects/shaders
-        
-        * <garrysmod>/<garrysmod>/shaders/fxc
-        
+        ```* <garrysmod>/<garrysmod>/shaders/fxc
         * <ToolDir>/materials/effects/shaders/template
-
+        * <garrysmod>/<garrysmod>/materials/effects/shaders
+        ```
 Attach the following code bracket to the vscode setup we're using (Thanks Ficool!)
 The file should be called: "TASKS.JSON" which is located in the main '.vscode' folder.
 
