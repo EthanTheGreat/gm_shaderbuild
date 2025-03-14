@@ -2,10 +2,16 @@
 Allows anyone to hotload shaders using a fix by renaming the contents.
 
 
-############# Install Instructions #############
+# Install Instructions
 Step 1) Install: https://github.com/ficool2/sdk_screenspace_shaders
+
 Step 2) Apply existing addon into the root folder, of the above repository. 
+        This appear like so:
+![image](https://github.com/user-attachments/assets/68d4cd0e-0a15-4827-a155-7f2b74986897)
+
+
 Step 3) Adjust game path within `process_shaders_single_30.ps1` relative to the game paths described @ lines 13-15
+        If you're game's relative path is different, please locate them and change the lines to match your project.
 
 Please Modify the ps1 file with the following folder paths:
         <garrysmod>/<garrysmod>/materials/effects/shaders
